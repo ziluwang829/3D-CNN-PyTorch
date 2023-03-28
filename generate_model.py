@@ -3,7 +3,7 @@ from torch import nn
 from models.cnn import cnn3d
 from models import (cnn, C3DNet, resnet, ResNetV2, ResNeXt, ResNeXtV2, WideResNet, PreActResNet,
         EfficientNet, DenseNet, ShuffleNet, ShuffleNetV2, SqueezeNet, MobileNet, MobileNetV2)
-
+from models.EfficientNet import EfficientNet3D
 from opts import parse_opts
 
 
